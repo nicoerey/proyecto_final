@@ -19,9 +19,7 @@
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-      grid-template-areas: "carrousel "
- "reco-autor "
- "noticias ";
+      grid-template-areas: "carrousel " "reco-autor " "noticias ";
   border: 1px solid black;
 }
 
@@ -151,8 +149,7 @@ p {
 .wallpapers__grid {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: ' img1 img1 img2'
- ' img1 img1 img3';
+      grid-template-areas: ' img1 img1 img2' ' img1 img1 img3';
 }
 
 .wallpapers__grid--img1 {
@@ -203,5 +200,57 @@ p {
   width: 50%;
   height: 200px;
   padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  /*Generales*/
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+    padding: 3px;
+  }
+  /*Index*/
+  .recoAutor__3 {
+    width: 350px;
+    height: 420px;
+  }
+  .recoAutor__3--img {
+    height: 200px;
+    width: 200px;
+  }
+  .index__main {
+    padding: 10% 2% 2% 2%;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5px;
+  }
+  /*Footer*/
+  .footer {
+    height: 126px;
+    border: 1px solid black;
+  }
+  .footer__redes img {
+    width: 25px;
+    height: 25px;
+  }
+  /*Contacto*/
+  .mainNosotros__pepes {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .mainNosotros {
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

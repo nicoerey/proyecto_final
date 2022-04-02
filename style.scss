@@ -193,3 +193,82 @@ p{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    /*Generales*/
+
+    h1{
+        font-size: 20px;
+        
+    }
+    h2{
+        font-size: 18px;
+        
+    }
+    h3{
+        font-size: 15px;
+        
+    }
+    p{
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    /*Index*/
+
+    .recoAutor__3{
+        width: 350px;
+        height: 420px;
+
+        &--img{
+            height: 200px;
+            width: 200px;
+        }
+    }
+    
+    .index__main{
+        padding: 10% 2% 2% 2%;
+    }
+
+    .card{
+        display: flex;
+        margin: 5px;
+        
+    }
+
+
+    /*Footer*/
+
+    .footer{
+        height: 126px;
+        border: 1px solid black;
+
+    }
+
+    .footer__redes img{
+        width: 25px;
+        height: 25px;
+    }
+
+    /*Contacto*/
+
+    .mainNosotros__pepes{
+        flex-wrap: wrap;
+    }
+    .mainNosotros{
+        height: 100%;
+    }
+
+
+
+
+}
