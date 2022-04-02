@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+$secondary-color:#3805F7;
+
+
+/*Index*/
+
+.body{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.index__main{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-areas: 
+    "carrousel "
+    "reco-autor "
+    "noticias "; 
+    border: 1px solid black;
+    
+    &--carousel{
+        padding: 3% 10% 2% 10%;
+        grid-area: carrousel;
+        
+    }
+}
+
+.card{
+    padding: 10px;
+    border: 2px solid black;
+
+    &__title{
+        font-weight: bolder;
+    }
+}
+
+
+
+.recoAutor{
+    margin: 30px;
+    
+    &__2{
+        display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 10px;
+    justify-content: space-around;
+    }
+    
+    &__3{
+        width: 450px;
+        height: 450px;
+        text-align: center;
+
+         &--img {
+             height: 300px;
+             width: 250px;
+        }
+    }
+}
+
+.noticias { 
+    grid-area: noticias;
+    
+    
+
+    &__contenedor{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         padding-bottom: 2%;
+
+    }
+}
+
+/*header*/
+
+.header{
+    border: 1px solid black;
+}
+/*Generales*/
+
+a{
+    text-decoration: none; 
+    padding: 15px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*Footer*/
+
+.footer{
+    text-align: center;
+    border: 1px solid black;
+    
+    &__redes{
+        display: inline;
+        list-style: none;
+        margin-top: 10px; 
+
+        &--li{
+             display: inline;
+             list-style: none;
+             padding-right: 15px;
+        }
+    }
+}
+
+/*Wallpapers*/
+
+.wallpapers{
+    text-align: center;
+    padding: 50px;
+    border: solid 2px black;
+
+    &__grid{
+        display: grid;
+        grid-template-areas:' img1 img1 img2'
+                        ' img1 img1 img3' ; 
+
+        &--img1{
+            grid-area: img1;
+        }
+        &--img2{
+            grid-area: img2;
+        }
+        &--img3{
+            grid-area: img3;
+        }             
+    }
+}
+
+.wallpapers img {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+/*Sobre nosotros*/
+
+.mainNosotros{
+    text-align: center;
+    height: 700px;
+    width: 100%;
+    border: solid 2px black;
+
+    &__pepes{
+        display: flex;
+         justify-content: space-around;
+         padding: 20px;
+        margin: 50px;
+
+        &--imgPepes{
+             width: 50%;
+            height: 200px;
+            padding: 30px;
+        }
+
+    }
+    
+}
+
+

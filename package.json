@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-2.0",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000r\u0000o\u0000y\u0000e\u0000c\u0000t\u0000o\u0000_\u0000f\u0000i\u0000n\u0000a\u0000l\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoerey/proyecto_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoerey/proyecto_final/issues"
+  },
+  "homepage": "https://github.com/nicoerey/proyecto_final#readme",
+  "devDependencies": {
+    "node": "^17.7.2",
+    "nodeman": "^1.1.2"
+  }
+}
