@@ -214,7 +214,6 @@ p {
 }
 
 .mainNosotros__pepes--imgPepes {
-  width: 50%;
   height: 200px;
   padding: 30px;
 }
@@ -298,9 +297,6 @@ p {
   .mainNosotros__pepes {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  .mainNosotros__pepes img {
-    width: 15%;
   }
   .mainNosotros {
     height: 100%;
