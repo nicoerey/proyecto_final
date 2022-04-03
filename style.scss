@@ -22,7 +22,7 @@ $secondary-color:#3805F7;
     grid-template-columns: 100% ;
     grid-template-areas: 
     "carrousel "
-    "reco-autor "
+    "recoAutor"
     "noticias "; 
     border: 1px solid black;
     
@@ -36,7 +36,8 @@ $secondary-color:#3805F7;
 .card{
     padding: 10px;
     border: 2px solid black;
-
+    text-align: justify;
+    
     &__title{
         font-weight: bolder;
     }
@@ -46,7 +47,7 @@ $secondary-color:#3805F7;
 
 .recoAutor{
     margin: 30px;
-    
+    grid-area: recoAutor;
     &__2{
         display: flex;
     flex-wrap: wrap;
@@ -86,6 +87,14 @@ $secondary-color:#3805F7;
 .header{
     border: 1px solid black;
 }
+
+/*Juegos*/
+
+.main__juegos{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*Generales*/
 
 a{
@@ -264,11 +273,20 @@ p{
     .mainNosotros__pepes{
         flex-wrap: wrap;
     }
+    .mainNosotros__pepes img{
+        width: 15%;
+        
+    }
     .mainNosotros{
         height: 100%;
     }
 
+    /*Wallpapers*/
 
+    .wallpapers__grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 
 }

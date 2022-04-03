@@ -19,7 +19,7 @@
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-      grid-template-areas: "carrousel " "reco-autor " "noticias ";
+      grid-template-areas: "carrousel " "recoAutor" "noticias ";
   border: 1px solid black;
 }
 
@@ -33,6 +33,7 @@
 .card {
   padding: 10px;
   border: 2px solid black;
+  text-align: justify;
 }
 
 .card__title {
@@ -41,6 +42,9 @@
 
 .recoAutor {
   margin: 30px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: recoAutor;
 }
 
 .recoAutor__2 {
@@ -86,6 +90,15 @@
 /*header*/
 .header {
   border: 1px solid black;
+}
+
+/*Juegos*/
+.main__juegos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /*Generales*/
@@ -249,8 +262,19 @@ p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .mainNosotros__pepes img {
+    width: 15%;
+  }
   .mainNosotros {
     height: 100%;
+  }
+  /*Wallpapers*/
+  .wallpapers__grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=style.css.map */
