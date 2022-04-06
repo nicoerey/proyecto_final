@@ -8,7 +8,10 @@
 }
 
 
-$secondary-color:#3805F7;
+$secondary-color:#9aedde;
+$borde:2px solid black;
+$position: fixed;
+
 
 
 /*Index*/
@@ -39,8 +42,10 @@ $secondary-color:#3805F7;
 
 .card{
     padding: 10px;
-    border: 2px solid black;
+    border: $borde;
     text-align: justify;
+    font-family: $borde;
+    
 
     &__title{
         font-weight: bolder;
@@ -138,6 +143,7 @@ p{
     text-align: center;
     border: 1px solid black;
     
+    
     &__redes{
         display: inline;
         list-style: none;
@@ -220,7 +226,7 @@ p{
 }
 
 .footer_contacto{
-    position: absolute;
+    position: $position;
     bottom: 0;
     width: 100%;
         
@@ -276,6 +282,10 @@ p{
         margin: 5px;
         
     }
+
+    .formulario__input{
+        width: 95%;
+    }
     /*Juegos*/
     
     .main__juegos{
@@ -295,13 +305,13 @@ p{
         height: 25px;
     }
 
-    /*Contacto*/
+    /*Sobre nosotros*/
 
     .mainNosotros__pepes{
         flex-wrap: wrap;
     }
     .mainNosotros__pepes img{
-        //width: 100%;
+        width: 100%;
         
     }
     .mainNosotros{
@@ -315,5 +325,8 @@ p{
         flex-wrap: wrap;
     }
 
+    .footer_contacto{
+        background-color: $secondary-color;
+    }
 
 }

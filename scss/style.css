@@ -38,6 +38,7 @@
   padding: 10px;
   border: 2px solid black;
   text-align: justify;
+  font-family: 2px solid black;
 }
 
 .card__title {
@@ -241,7 +242,7 @@ p {
 }
 
 .footer_contacto {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -279,6 +280,9 @@ p {
     display: flex;
     margin: 5px;
   }
+  .formulario__input {
+    width: 95%;
+  }
   /*Juegos*/
   .main__juegos {
     -ms-flex-wrap: wrap;
@@ -293,10 +297,13 @@ p {
     width: 25px;
     height: 25px;
   }
-  /*Contacto*/
+  /*Sobre nosotros*/
   .mainNosotros__pepes {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .mainNosotros__pepes img {
+    width: 100%;
   }
   .mainNosotros {
     height: 100%;
@@ -308,6 +315,9 @@ p {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .footer_contacto {
+    background-color: #9aedde;
   }
 }
 /*# sourceMappingURL=style.css.map */
