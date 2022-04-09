@@ -1,0 +1,54 @@
+@import "../componentes/variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer{
+    text-align: center;
+    border: 1px solid black;
+    
+    
+    &__redes{
+        display: inline;
+        list-style: none;
+        margin-top: 10px; 
+
+        &--li{
+             display: inline;
+             list-style: none;
+             padding-right: 15px;
+        }
+    }
+}
+
+.body{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.footer_contacto{
+    position: $position;
+    bottom: 0;
+    width: 100%;
+        
+}
+@media screen and (max-width:768px){
+    .footer{
+        height: 126px;
+        border: 1px solid black;
+
+    }
+    .footer__redes img{
+        width: 25px;
+        height: 25px;
+    }
+    .footer_contacto{
+        background-color: $secondary-color;
+    }
+}
