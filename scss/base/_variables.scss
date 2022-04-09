@@ -10,3 +10,15 @@
 $secondary-color:#9aedde;
 $borde:2px solid black;
 $position: fixed;
+
+$variables: (
+    "display": flex,
+    "justify-content": center
+);
+
+@mixin align ($display, $justify-content) {
+
+    display: $display;
+    justify-content: $justify-content;
+    
+}

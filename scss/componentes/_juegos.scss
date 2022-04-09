@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import "../componentes/variables";
+@import "../base/variables";
 
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
 
 .main__juegos{
-    display: flex;
-    justify-content: space-around;
+    @include align (flex, space-around );
+    
 }
 .body{
     background-color: #74EBD5;

@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import "../componentes/variables";
+@import "../base/variables";
 
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
@@ -45,7 +39,7 @@
     margin: 30px;
     grid-area: recoAutor;
     &__2{
-        display: flex;
+        display: map-get($variables , display );
     flex-wrap: wrap;
     margin-top: 50px;
     padding: 10px;
@@ -70,7 +64,7 @@
     
 
     &__contenedor{
-         display: flex;
+         display: map-get($variables , display );
          flex-wrap: wrap;
          justify-content: space-around;
          padding-bottom: 2%;
@@ -99,7 +93,7 @@
     }
 
     .card{
-        display: flex;
+        display: map-get($variables , display );
         margin: 5px;
         
     }

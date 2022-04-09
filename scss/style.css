@@ -10,119 +10,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0%;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
-.formulario {
-  width: 100%;
-  height: 65vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.formulario__input {
-  width: 50%;
-}
-
-.body {
-  background-color: #74EBD5;
-  background-image: -webkit-gradient(linear, left top, right top, from(#74EBD5), to(#9FACE6));
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-}
-
-@media screen and (max-width: 768px) {
-  .formulario__input {
-    width: 95%;
-  }
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
-.footer {
-  text-align: center;
-  border: 1px solid black;
-}
-
-.footer__redes {
-  display: inline;
-  list-style: none;
-  margin-top: 10px;
-}
-
-.footer__redes--li {
-  display: inline;
-  list-style: none;
-  padding-right: 15px;
-}
-
-.body {
-  background-color: #74EBD5;
-  background-image: -webkit-gradient(linear, left top, right top, from(#74EBD5), to(#9FACE6));
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-}
-
-.footer_contacto {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    height: 126px;
-    border: 1px solid black;
-  }
-  .footer__redes img {
-    width: 25px;
-    height: 25px;
-  }
-  .footer_contacto {
-    background-color: #9aedde;
-  }
 }
 
 * {
@@ -205,8 +98,26 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
-  border: 1px solid black;
+.formulario {
+  width: 100%;
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario__input {
+  width: 50%;
 }
 
 .body {
@@ -215,12 +126,79 @@ p {
   background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
 
+@media screen and (max-width: 768px) {
+  .formulario__input {
+    width: 95%;
+  }
+}
+
 * {
   margin: 0%;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.footer__redes {
+  display: inline;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer__redes--li {
+  display: inline;
+  list-style: none;
+  padding-right: 15px;
+}
+
+.body {
+  background-color: #74EBD5;
+  background-image: -webkit-gradient(linear, left top, right top, from(#74EBD5), to(#9FACE6));
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.footer_contacto {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 126px;
+    border: 1px solid black;
+  }
+  .footer__redes img {
+    width: 25px;
+    height: 25px;
+  }
+  .footer_contacto {
+    background-color: #9aedde;
+  }
+}
+
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  border: 1px solid black;
+}
+
+.body {
+  background-color: #74EBD5;
+  background-image: -webkit-gradient(linear, left top, right top, from(#74EBD5), to(#9FACE6));
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
 
 * {
@@ -343,14 +321,6 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
 .main__juegos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -370,14 +340,6 @@ p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -427,22 +389,6 @@ p {
   .mainNosotros {
     height: 100%;
   }
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -505,13 +451,5 @@ p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-}
-
-* {
-  margin: 0%;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

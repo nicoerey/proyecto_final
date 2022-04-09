@@ -6,14 +6,15 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "./base/variables";
+@import "./base/generales";
+@import "./componentes/reset";
 @import "./componentes/contacto";
 @import "./componentes/footer";
-@import "./componentes/generales";
 @import "./componentes/header";
 @import "./componentes/index";
 @import "./componentes/juegos";
 @import "./componentes/nosotros";
-@import "./componentes/variables";
 @import "./componentes/walpapers";
 
 
