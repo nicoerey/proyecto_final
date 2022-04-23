@@ -25,22 +25,39 @@
 }
 
 .footer_contacto{
-    position: $position;
     bottom: 0;
     width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+    
+    
+    &__redes{
+        display: inline;
+        list-style: none;
+        margin-top: 10px; 
+
+        &--li{
+             display: inline;
+             list-style: none;
+             padding-right: 15px;
+        }
+    }
         
 }
+
 @media screen and (max-width:768px){
     .footer{
         height: 126px;
         border: 1px solid black;
 
     }
+    .footer_contacto__redes img{
+        width: 25px;
+        height: 25px;
+    }
     .footer__redes img{
         width: 25px;
         height: 25px;
     }
-    .footer_contacto{
-        background-color: $secondary-color;
-    }
+    
 }

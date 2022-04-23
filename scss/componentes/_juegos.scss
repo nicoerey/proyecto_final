@@ -3,6 +3,7 @@
 
 .main__juegos{
     @include align (flex, space-around );
+    padding-bottom: 5%;
     
 }
 .body{

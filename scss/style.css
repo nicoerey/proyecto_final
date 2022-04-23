@@ -164,9 +164,22 @@ p {
 }
 
 .footer_contacto {
-  position: fixed;
   bottom: 0;
   width: 100%;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.footer_contacto__redes {
+  display: inline;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer_contacto__redes--li {
+  display: inline;
+  list-style: none;
+  padding-right: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -174,12 +187,13 @@ p {
     height: 126px;
     border: 1px solid black;
   }
-  .footer__redes img {
+  .footer_contacto__redes img {
     width: 25px;
     height: 25px;
   }
-  .footer_contacto {
-    background-color: #9aedde;
+  .footer__redes img {
+    width: 25px;
+    height: 25px;
   }
 }
 
@@ -327,6 +341,7 @@ p {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-bottom: 5%;
 }
 
 .body {
